@@ -1,30 +1,30 @@
 # RaidProtect
 A simple and clean moderation and raid protection bot.
 
-Commands:
+# Commands:
 
-slowmode <delay> 
+slowmode (delay) 
 Sets a slowmode delay in the channel. The maximum delay is 21600.
 
-warn <user> <reason>
+warn (user) (reason)
 Warns the user.
 
-kick <user> <reason>
+kick (user) (reason)
 Kicks the user.
   
-ban <user> <reason>
+ban (user) (reason)
 Bans the user.
 
-hackban <user id>
+hackban (user id)
 Bans a user outside of a guild.
 
-purge <amount>
+purge (amount)
 Purges messages.
 
 logs setup
 Sets up logging.
 
-logs bind <channel>
+logs bind (channel)
 Binds logging to another channel.
 ⠀
 The bot will automatically kick users who are blacklisted in our system.
