@@ -26,7 +26,9 @@ Sets up logging.
 
 logs bind (channel)
 Binds logging to another channel.
-⠀
+
+
 The bot will automatically kick users who are blacklisted in our system.
+
 Note: You must have the required permissions to use the moderation commands.
 
